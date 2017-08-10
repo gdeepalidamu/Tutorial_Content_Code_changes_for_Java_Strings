@@ -1,7 +1,6 @@
 
 # Java-Strings:
               We needs to change the content for the following method examples.
-
 1.byte getBytes():
 
 Example:
