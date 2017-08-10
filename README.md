@@ -1,10 +1,10 @@
-```
+
 # Java-Strings:We needs to change the content for the following methods.
 
 1.byte getBytes():
 
 Example:
-
+```
 import java.io.*;
 
 public class Test {
@@ -26,7 +26,7 @@ public class Test {
 		}
 	}
 }
-
+```
 This produces the following result:
 
 Returned  Value [B@659e0bfd
@@ -36,7 +36,7 @@ Returned  Value [B@15db9742
 2.byte[] getBytes(String charsetName):
 
 Example:
-
+```
 import java.io.*;
 
 public class Test {
@@ -58,12 +58,12 @@ public class Test {
 		}
 	}
 }
-
+```
 This produces the following result:
 
 Returned  Value [B@659e0bfd
 Returned  Value [B@2a139a55
 Returned  Value [B@15db9742
 
-```
+
 
