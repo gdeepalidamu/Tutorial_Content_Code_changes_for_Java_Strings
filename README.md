@@ -517,8 +517,100 @@ Return Value :WelcTme tT Revature.cTm
 Return Value :WeDcome to Revature.com
 ```
 
-18.
+18.String replaceAll(String regex, String replacement):
 
+Example:
 
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
 
+		System.out.print("Return Value :");
+		System.out.println(str.replaceAll("(.*)Revature(.*)", "AMROOD"));
+	}
+}
 
+This produces the following result:
+
+Return Value :AMROOD
+```
+
+19.String replaceFirst(String regex, String replacement):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.replaceFirst("(.*)Revature(.*)", "AMROOD"));
+
+		System.out.print("Return Value :");
+		System.out.println(str.replaceFirst("Revature", "AMROOD"));
+	}
+}
+
+This produces the following result:
+
+Return Value :AMROOD
+Return Value :Welcome to AMROOD.com
+```
+
+20.boolean startsWith(String prefix):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.startsWith("Welcome"));
+
+		System.out.print("Return Value :");
+		System.out.println(str.startsWith("Revature"));
+
+		System.out.print("Return Value :");
+		System.out.println(str.startsWith("Revature", 11));
+	}
+}
+
+This produces the following result:
+
+Return Value :true
+Return Value :false
+Return Value :true
+```
+
+21.boolean startsWith(String prefix, int toffset):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.startsWith("Welcome"));
+
+		System.out.print("Return Value :");
+		System.out.println(str.startsWith("Revature"));
+
+		System.out.print("Return Value :");
+		System.out.println(str.startsWith("Revature", 11));
+	}
+}
+
+This produces the following result:
+
+Return Value :true
+Return Value :false
+Return Value :true
+```
+
+22.
