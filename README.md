@@ -281,4 +281,129 @@ Found Last Index :11
 Found Last Index :-1
 ```
 
+10.int lastIndexOf(int ch, int fromIndex):
 
+Example:
+
+```java
+public class Test {
+
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+		String subStr1 = new String("Revature");
+		String subStr2 = new String("Sevature");
+
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf('o'));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf('o', 5));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr1));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr1, 15));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr2));
+	}
+}
+
+This produces the following result:
+
+Found Last Index :21
+Found Last Index :4
+Found Last Index :11
+Found Last Index :11
+Found Last Index :-1
+```
+
+11.int lastIndexOf(String str):
+
+Example:
+
+```java
+public class Test {
+
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+		String subStr1 = new String("Revature");
+		String subStr2 = new String("Sevature");
+
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf('o'));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf('o', 5));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr1));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr1, 15));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr2));
+	}
+}
+
+This produces the following result:
+
+Found Last Index :21
+Found Last Index :4
+Found Last Index :11
+Found Last Index :11
+Found Last Index :-1
+```
+
+12.int lastIndexOf(String str, int fromIndex):
+
+Example:
+
+```java
+public class Test {
+
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+		String subStr1 = new String("Revature");
+		String subStr2 = new String("Sevature");
+
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf('o'));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf('o', 5));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr1));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr1, 15));
+		System.out.print("Found Last Index :");
+		System.out.println(str.lastIndexOf(subStr2));
+	}
+}
+
+This produces the following result:
+
+Found Last Index :21
+Found Last Index :4
+Found Last Index :11
+Found Last Index :11
+Found Last Index :-1
+```
+
+13.int length():
+
+Example:
+
+```java
+public class Test{
+	   public static void main(String args[]){
+	      String Str1 = new String("Welcome to Revature.com");
+	      String Str2 = new String("Revature" );
+
+	      System.out.print("String Length :" );
+	      System.out.println(Str1.length());
+
+	      System.out.print("String Length :" );
+	      System.out.println(Str2.length());
+	   }
+	}
+	
+This produces the following result:
+
+String Length :23
+String Length :8
+```
+	
