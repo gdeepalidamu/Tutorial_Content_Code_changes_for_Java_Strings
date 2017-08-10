@@ -112,3 +112,144 @@ This produces the following result:
 
 Hashcode for str :-1924542484
 ```
+
+5.int indexOf(int ch):
+
+```java
+Example:
+
+public class Test {
+
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+		String subStr1 = new String("Revature");
+		String subStr2 = new String("Sevature");
+
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf('o'));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf('o', 5));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr1));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr1, 15));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr2));
+	}
+}
+
+This produces the following result:
+
+Found Index :4
+Found Index :9
+Found Index :11
+Found Index :-1
+Found Index :-1
+```
+
+6.int indexOf(int ch, int fromIndex):
+
+```java
+Example:
+
+public class Test {
+
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+		String subStr1 = new String("Revature");
+		String subStr2 = new String("Sevature");
+
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf('o'));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf('o', 5));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr1));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr1, 15));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr2));
+	}
+}
+
+This produces the following result:
+
+Found Index :4
+Found Index :9
+Found Index :11
+Found Index :-1
+Found Index :-1
+```
+
+7.int indexOf(String str):
+
+```java
+Example:
+
+public class Test {
+
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+		String subStr1 = new String("Revature");
+		String subStr2 = new String("Sevature");
+
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf('o'));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf('o', 5));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr1));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr1, 15));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr2));
+	}
+}
+
+This produces the following result:
+
+Found Index :4
+Found Index :9
+Found Index :11
+Found Index :-1
+Found Index :-1
+```
+
+8.int indexOf(String str, int fromIndex):
+
+```java
+Example:
+
+public class Test {
+
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+		String subStr1 = new String("Revature");
+		String subStr2 = new String("Sevature");
+
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf('o'));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf('o', 5));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr1));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr1, 15));
+		System.out.print("Found Index :");
+		System.out.println(str.indexOf(subStr2));
+	}
+}
+
+This produces the following result:
+
+Found Index :4
+Found Index :9
+Found Index :11
+Found Index :-1
+Found Index :-1
+```
+
+9.int lastIndexOf(int ch):
+
+
+
