@@ -94,3 +94,21 @@ This produces the following result:
 
 Copied Value = lcome t
 ```
+
+4.int hashCode():
+
+Example:
+
+```java
+
+public class Test{
+   public static void main(String args[]){
+      String str = new String("Welcome to Revature.com");
+      System.out.println("Hashcode for str :" + str.hashCode() );
+   }
+}
+
+This produces the following result:
+
+Hashcode for str :-1924542484
+```
