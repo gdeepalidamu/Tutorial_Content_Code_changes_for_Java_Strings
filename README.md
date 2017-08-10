@@ -724,7 +724,7 @@ This produces the following result:
 Return Value :WELCOME TO REVATURE.COM
 ```
 ```
-#Note:In the above code snippets,if you are observing the overloaded methods are having the same code.Instead of writing seperately,we can reuse the same code or we can pass different input data.
+Note:In the above code snippets,if you are observing the overloaded methods are having the same code.Instead of writing seperately,we can reuse the same code or we can pass different input data.
 ```
 
 
