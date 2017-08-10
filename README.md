@@ -390,14 +390,14 @@ Example:
 ```java
 public class Test{
 	   public static void main(String args[]){
-	      String Str1 = new String("Welcome to Revature.com");
-	      String Str2 = new String("Revature" );
+	      String str1 = new String("Welcome to Revature.com");
+	      String str2 = new String("Revature" );
 
 	      System.out.print("String Length :" );
-	      System.out.println(Str1.length());
+	      System.out.println(str1.length());
 
 	      System.out.print("String Length :" );
-	      System.out.println(Str2.length());
+	      System.out.println(str2.length());
 	   }
 	}
 	
@@ -407,3 +407,118 @@ String Length :23
 String Length :8
 ```
 	
+14.boolean matches(String regex):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.matches("(.*)Revature(.*)"));
+
+		System.out.print("Return Value :");
+		System.out.println(str.matches("Revature"));
+
+		System.out.print("Return Value :");
+		System.out.println(str.matches("Welcome(.*)"));
+	}
+}
+
+This produces the following result:
+
+Return Value :true
+Return Value :false
+Return Value :true
+```
+
+15.boolean regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str1 = new String("Welcome to Revature.com");
+		String str2 = new String("Revature");
+		String str3 = new String("REVATURE");
+
+		System.out.print("Return Value :");
+		System.out.println(str1.regionMatches(11, str2, 0, 8));
+
+		System.out.print("Return Value :");
+		System.out.println(str1.regionMatches(11, str3, 0, 8));
+
+		System.out.print("Return Value :");
+		System.out.println(str1.regionMatches(true, 11, str3, 0, 8));
+	}
+}
+
+
+This produces the following result:
+
+Return Value :true
+Return Value :false
+Return Value :true
+```
+
+16.boolean regionMatches(int toffset, String other, int ooffset, int len):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str1 = new String("Welcome to Revature.com");
+		String str2 = new String("Revature");
+		String str3 = new String("REVATURE");
+
+		System.out.print("Return Value :");
+		System.out.println(str1.regionMatches(11, str2, 0, 8));
+
+		System.out.print("Return Value :");
+		System.out.println(str1.regionMatches(11, str3, 0, 8));
+
+		System.out.print("Return Value :");
+		System.out.println(str1.regionMatches(true, 11, str3, 0, 8));
+	}
+}
+
+
+This produces the following result:
+
+Return Value :true
+Return Value :false
+Return Value :true
+```
+
+17.String replace(char oldChar, char newChar):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.replace('o', 'T'));
+
+		System.out.print("Return Value :");
+		System.out.println(str.replace('l', 'D'));
+	}
+}
+
+This produces the following result:
+
+Return Value :WelcTme tT Revature.cTm
+Return Value :WeDcome to Revature.com
+```
+
+18.
+
+
+
+
