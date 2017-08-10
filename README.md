@@ -613,4 +613,116 @@ Return Value :false
 Return Value :true
 ```
 
-22.
+22.CharSequence subSequence(int beginIndex, int endIndex):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.subSequence(0, 10));
+
+		System.out.print("Return Value :");
+		System.out.println(str.subSequence(10, 15));
+	}
+}
+
+This produces the following result:
+
+Return Value :Welcome to
+Return Value : Reva
+```
+
+23.String substring(int beginIndex):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.substring(10));
+
+		System.out.print("Return Value :");
+		System.out.println(str.substring(10, 15));
+	}
+}
+
+This produces the following result:
+
+Return Value : Revature.com
+Return Value : Reva
+```
+
+24.String substring(int beginIndex, int endIndex):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.substring(10));
+
+		System.out.print("Return Value :");
+		System.out.println(str.substring(10, 15));
+	}
+}
+
+This produces the following result:
+
+Return Value : Revature.com
+Return Value : Reva
+```
+
+25.String toUpperCase():
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.toUpperCase());
+	}
+}
+
+This produces the following result:
+
+Return Value :WELCOME TO REVATURE.COM
+```
+
+26.String toUpperCase(Locale locale):
+
+Example:
+
+```java
+public class Test {
+	public static void main(String args[]) {
+		String str = new String("Welcome to Revature.com");
+
+		System.out.print("Return Value :");
+		System.out.println(str.toUpperCase());
+	}
+}
+
+This produces the following result:
+
+Return Value :WELCOME TO REVATURE.COM
+```
+
+
+
+
+
+
+
