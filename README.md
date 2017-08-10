@@ -5,7 +5,7 @@
 
 Example:
 ```
-import java.io.*;
+import java.io.UnsupportedEncodingException;
 
 public class Test {
 
@@ -27,6 +27,7 @@ public class Test {
 	}
 }
 ```
+
 This produces the following result:
 
 Returned  Value [B@659e0bfd
