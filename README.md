@@ -1,12 +1,13 @@
 
 # Java-Strings:
               We needs to change the content for the following method examples.
+	      
 1.byte getBytes():
 
 Example:
 
 ```java
-import java.io.*;
+import java.io.UnsupportedEncodingException;
 
 public class Test {
 
@@ -39,7 +40,7 @@ Returned  Value [B@15db9742
 Example:
 
 ```java
-import java.io.*;
+import java.io.UnsupportedEncodingException;
 
 public class Test {
 
@@ -67,6 +68,7 @@ Returned  Value [B@659e0bfd
 Returned  Value [B@2a139a55
 Returned  Value [B@15db9742
 ```
+##Note:The above two methods byte[] getBytes(String charsetName),byte getBytes() are differing with the tutorialspoint content example.Please refer this url:https://www.tutorialspoint.com/java/java_string_getbytes_charsetname.htm. If you are observing,in these two method examples we are storing the results in byte[],but in tutorialspoint they are storing the results in String.
 
 3.void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin):
 
@@ -720,7 +722,7 @@ This produces the following result:
 Return Value :WELCOME TO REVATURE.COM
 ```
 
-
+#Note:In the above code snippets,if you are observing the overloaded methods are having the same code.Instead of writing seperately,we can reuse the same code or we can pass different input data.
 
 
 
