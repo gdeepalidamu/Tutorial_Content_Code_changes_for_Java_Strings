@@ -76,13 +76,13 @@ Example:
 
 public class Test {
 	public static void main(String args[]) {
-		String Str1 = new String("Welcome to Revature.com");
-		char[] Str2 = new char[7];
+		String str1 = new String("Welcome to Revature.com");
+		char[] str2 = new char[7];
 
 		try {
-			Str1.getChars(2, 9, Str2, 0);
+			str1.getChars(2, 9, str2, 0);
 			System.out.print("Copied Value = ");
-			System.out.println(Str2);
+			System.out.println(str2);
 
 		} catch (Exception ex) {
 			System.out.println("Raised exception...");
