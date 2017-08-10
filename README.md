@@ -69,7 +69,8 @@ Returned  Value [B@2a139a55
 Returned  Value [B@15db9742
 ```
 
-Note:The above two overloaded methods byte[] getBytes(String charsetName),byte getBytes() are differing with the tutorialspoint content example.Please refer this url:https://www.tutorialspoint.com/java/java_string_getbytes_charsetname.htm. If you are observing,in these two overloaded method examples we are storing the results in byte[],but in tutorialspoint they are storing the results in String.
+Note:The above two overloaded methods byte[] getBytes(String charsetName),byte getBytes() are differing with the tutorialspoint content example.
+Please refer this url:https://www.tutorialspoint.com/java/java_string_getbytes_charsetname.htm. If you are observing,in these two overloaded method examples we are storing the results in byte[],but in tutorialspoint they are storing the results in String.
 
 
 3.void getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin):
